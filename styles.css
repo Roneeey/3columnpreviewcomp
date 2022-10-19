@@ -114,7 +114,8 @@ p {
 @media only screen and (max-width: 375px) {
   .container {
     flex-wrap: wrap;
-    width: 270px;
+    max-width: 270px;
+    margin-top: -70%;
   }
 
   p {
